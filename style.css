@@ -1,3 +1,34 @@
-h1{
+body{
+    background-color: black;
+    color: white;
+    height: 2000px;
+}
+
+.navbar{
+    text-align: center;
+}
+
+.navbar > *{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.864);
+}
+
+.navbar a {
+    padding: 10px;
+}
+
+.navbar a:hover{
+    border-color: rgb(26, 89, 237);
+    border-style: none none solid;
+}
+
+
+.title{
+    margin: 100px;
+    background-color: rgba(128, 128, 128, 0.155);
+    padding: 50px;
+}
+
+h1, h2{
     text-align: center;
 }
