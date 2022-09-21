@@ -27,10 +27,28 @@ body{
 }
 
 
-img{
+main .container{
+    margin-inline: auto;
+    width: 50%;
+}
+
+main .container p{
+    line-height: 1.5;
+}
+
+main .container h1{
+    font-size: 5em;
+    font-style: italic;
 }
 
 
+
+
+
+
+/*
+*   Footer
+*/
 footer{
     margin-bottom: 0px;
     background-color: #080807;
