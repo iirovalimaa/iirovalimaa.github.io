@@ -1,10 +1,16 @@
 body{
-    background-color: black;
-    color: white;
+    background-color: rgba(00, 00, 00, 0.955);
+    color: rgba(255, 255, 255, 1);
     height: 2000px;
+    margin: 0px;
+    text-align: center;
 }
 
 .navbar{
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 100px;
+    padding: 20px;
     text-align: center;
 }
 
@@ -15,18 +21,33 @@ body{
 
 .navbar a {
     padding: 10px;
+    text-decoration: none;
+    padding: 10px;
+    color: #ffffff;
 }
 
 .navbar a:hover{
-    border-color: rgb(26, 89, 237);
+    border-color: #e3874f;
     border-style: none none solid;
 }
 
+.navbar ul {
+    list-style: none;
+    text-align: center;
+}
+ 
+.navbar ul li {
+    display: inline-block;
+}
+
+
 
 .title{
-    margin: 100px;
-    background-color: rgba(128, 128, 128, 0.155);
+    margin: auto;
+    width: 70rem;
+    background-color: rgba(70, 70, 70, 0.155);
     padding: 50px;
+    text-align: center;
 }
 
 h1, h2{
