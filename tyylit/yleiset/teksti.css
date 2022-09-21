@@ -5,3 +5,14 @@
     margin-block: 7rem;
     padding: 15px;
 }
+
+.teksti-tausta{
+    margin-inline: auto;
+    width: 75%;
+    text-align: center;
+    background-color: #707070;
+}
+
+.teksti-tausta p {
+    margin-inline: 50px;
+}

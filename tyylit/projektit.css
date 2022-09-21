@@ -7,47 +7,8 @@ body{
     text-align: center;
 }
 
-.navbar{
-    width: 100%;
-    text-align: center;
-    margin-top: 0px;
-    margin-bottom: 100px;
-    padding: 20px;
-    background-color: #37363d;
-    border: 1px;
-    border-style: none none solid;
-}
 
 
-.navbar a {
-    padding: 10px;
-    text-decoration: none;
-    padding: 10px;
-    color: #ffffff;
-}
-
-.navbar a:hover{
-    border-color: #e3874f;
-    border-style: none none solid;
-}
-
-
-.navbar > *{
-    text-decoration: none;
-    color: rgba(0, 0, 0, 0.864);
-}
-
-
-
-
-.title{
-    margin: auto;
-    margin-bottom: 8rem;
-    width: 20rem;
-    text-align: center;
-    border: 0.1px;
-    border-style: solid none;
-}
 
 /* .title{
     margin: auto;
@@ -62,6 +23,8 @@ body{
 
 
 .projekti-rivi{
+    width: 75%;
+    margin-inline: auto;
     display: grid;
     text-align: center;
     grid-template-columns: 1fr 1fr 1fr;
@@ -74,9 +37,11 @@ body{
     margin: auto;
     width: 100%;
     display: grid;
+    padding: 0px;
     justify-content: center;
     justify-items: center;
 }
+
 
 .projekti-kortti img {
     margin: 1em;
@@ -92,3 +57,4 @@ body{
 .projekti-kortti a {
     margin: 1em;
 }
+
