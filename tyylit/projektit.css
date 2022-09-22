@@ -1,7 +1,8 @@
+
 body{
+    background-color: #171714;
     /* background-color: #707070; */
-    background-color: #ffffff;
-    color: black;
+    color: white;
     height: 2000px;
     margin: 0px;
     text-align: center;
@@ -51,10 +52,16 @@ body{
 
 .projekti-kortti > * {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .projekti-kortti a {
     margin: 1em;
+    font-size: 1.3em;
+}
+
+.teksti-tausta{
+    margin-inline: auto;
+    width: 70%;
 }
 
