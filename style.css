@@ -3,6 +3,11 @@ body{
     margin: 0px;
     text-align: center;
     background-color: #171714;
+    
+}
+
+body > *{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .title-container{
@@ -17,6 +22,7 @@ body{
     justify-content: center;
     flex-direction: row;
     gap: 1em;
+    
 }
 
 .title-text{
@@ -24,12 +30,17 @@ body{
     flex-direction: column;
     font-size: 4em;
     text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 
 main .container{
     margin-inline: auto;
     width: 50%;
+}
+
+main .container:last-child{
+    margin-bottom: 300px;
 }
 
 main .container p{
@@ -43,6 +54,20 @@ main .container h1{
 
 #lore-ipsum{
     margin-top: 10em;
+}
+
+.kysymys-container{
+    margin-top: 5em;
+    margin-bottom: 2em;
+    margin-inline: auto ;
+    width: 50%;
+    border: 1px;
+    border-color: #e3874f;
+    border-style: none none solid;
+}
+
+.vastaus-container{
+    margin-bottom: 10em;
 }
 
 

@@ -11,15 +11,10 @@ body{
 
 
 
-/* .title{
-    margin: auto;
-    margin-bottom: 100px;
-    width: 70rem;
-    background-color: rgba(14, 14, 14, 0.189);
-    color: white;
-    padding: 50px;
-    text-align: center;
-} */
+.title{
+    margin-block: 5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
 
 
@@ -52,23 +47,38 @@ body{
 }
 
 .projekti-kortti img:hover {
-    margin: 1em;
+    margin-block: 1em;
+    margin-inline: auto;
     width: 120%;
     height: auto;
+    align-content: center;
+
 }
 
 .projekti-kortti > * {
     text-decoration: none;
     color: white;
+    text-align: center;
 }
 
-.projekti-kortti a {
+
+
+/*
+    Hoveraamisessa jotain ongelmaa
+    Tekstit hieman ohi keskikohdasta
+*/
+#linkki {
     margin: 1em;
     font-size: 1.3em;
+    text-align: center;
 }
+
+
 
 .teksti-tausta{
     margin-inline: auto;
     width: 70%;
+}
+.teksti-tausta p{
 }
 
