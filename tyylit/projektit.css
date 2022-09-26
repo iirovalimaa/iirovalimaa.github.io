@@ -3,7 +3,7 @@ body{
     background-color: #171714;
     /* background-color: #707070; */
     color: white;
-    height: 2000px;
+    height: fit-content;
     margin: 0px;
     text-align: center;
 }
@@ -78,6 +78,8 @@ body{
 .teksti-tausta{
     margin-inline: auto;
     width: 70%;
+    border-color: #e3874f;
+    border-style: solid none;
 }
 .teksti-tausta p{
 }
