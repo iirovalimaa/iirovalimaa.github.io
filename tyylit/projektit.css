@@ -84,3 +84,9 @@ body{
 .teksti-tausta p{
 }
 
+
+footer{
+    margin-bottom: 0px;
+    position: initial;
+    bottom: 0%;
+}
