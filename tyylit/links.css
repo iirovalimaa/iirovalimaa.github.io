@@ -83,3 +83,16 @@ body{
     flex-direction: row;
     justify-content: flex-start;
 }
+
+footer p{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+footer{
+    margin-top: 10em;
+    margin-bottom: 0px;
+    bottom: 0%;
+    background-color: #080807;
+}
