@@ -36,11 +36,7 @@ body > *{
 
 main .container{
     margin-inline: auto;
-    width: 100%;
-
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: 2fr 3fr;
+    width: 50%;
 }
 
 main .container:last-child{
@@ -61,41 +57,17 @@ main .container h1{
 }
 
 .kysymys-container{
-    display: table;
-    margin-block: 5em;
-    width: 100%;
-    padding: 2px;
-    border: 1px;
-    border-color: #e3874f;
-    border-style: none solid none none;
-}
-
-.kysymys-otsikko{
-    display: table-cell;
-    vertical-align: middle;
-    text-align:right;
-}
-
-.kysymys-otsikko h2{
-    margin-right: 5rem;
-}
-
-.p-lang{
+    margin-top: 5em;
+    margin-bottom: 2em;
+    margin-inline: auto ;
+    width: 50%;
     border: 1px;
     border-color: #e3874f;
     border-style: none none solid;
 }
 
 .vastaus-container{
-    margin-inline: 0.1em;
-    margin-block: 5em;
-    padding-inline: 10px;
-    width: 75%;
-}
-
-.vastaus{
-    text-align: left;
-    color: white;
+    margin-bottom: 10em;
 }
 
 

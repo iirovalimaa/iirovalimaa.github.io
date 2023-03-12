@@ -1,0 +1,7 @@
+                <p class="vastaus">
+                    Olen Iiro Välimaa, 23-vuotias koodari, joka opiskelee kolmatta vuotta Savonialla tietotekniikan insinööriksi.
+                    <br>
+                    Olen kasvanut perheessä, jossa teknologia on ollut aina lähellä. Näin olen kasvanut osaavaksi teknologian taitajaksi.
+                    <br>
+                    Tämän lisäksi olen saanut vaikutteita isältäni, joka on toiminut alalla yli 25 vuotta.
+                </p>

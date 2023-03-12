@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fi">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,7 +12,11 @@
     <link rel="shortcut icon" href="/kuvat/favicon1.png" type="image/x-icon">
     <title>Projektit</title>
 </head>
+
 <body>
+
+    <!--    NAVBAR STARTS   -->
+
     <div class="navbar">
         <span>// </span>
         <a href="/index.html">Etusivu</a>
@@ -21,6 +26,12 @@
         <a href="/sivut/links.html">Linkit</a>
         <span>// </span>
     </div>
+
+    <!--    NAVBAR ENDS     -->
+
+
+
+
     <div class="title">
         <h1>PROJEKTIT</h1>
     </div>
@@ -29,10 +40,13 @@
     <div class="teksti-tausta">
         <p>Tämä sivu sisältää suurimmat ja merkittävimmät tuotokseni!</p>
         <p>Näiden projektien lisäksi minulta löytyy kaksi suurempaa C# projektia, jotka molemmat lisään myöhemmin.</p>
-        <p>Lasken portfolioni yhdeksi ylpeyden aiheeksi, sillä sen rakentaminen on ollut yksi iso projekti, vaikkakin se on vielä kesken.</p>
-        <p>Osa projekteista ei ole ollut omassa GitHubissa tai koneella, joten olen joutunut palaamaan vanhoihin kouluprojekteihin ja ryhmien yhteisiin repositoreihin.</p>
+        <p>Lasken portfolioni yhdeksi ylpeyden aiheeksi, sillä sen rakentaminen on ollut yksi iso projekti, vaikkakin se
+            on vielä kesken.</p>
+        <p>Osa projekteista ei ole ollut omassa GitHubissa tai koneella, joten olen joutunut palaamaan vanhoihin
+            kouluprojekteihin ja ryhmien yhteisiin repositoreihin.</p>
         <p>Aikaa on kulunut myös muiden ryhmäläisten tekemän koodin tulkitsemiseen.</p>
-        <p>Viime aikoina olen alkanut tekemään työpöytäsovelluksia oman elämän helpottamiseksi. Tulen lisäämään nämä projektit tänne kunhan saan viimeisteltyä ne.</p>
+        <p>Viime aikoina olen alkanut tekemään työpöytäsovelluksia oman elämän helpottamiseksi. Tulen lisäämään nämä
+            projektit tänne kunhan saan viimeisteltyä ne.</p>
     </div>
 
 
@@ -45,20 +59,59 @@
 
         
     -->
-    <div class="projekti-rivi">
-        <div class="projekti-kortti">
-            <a href="/sivut/projektit/mern2022.html"><img class="projekti-kortti-kuva" src="/kuvat/mern2022/mern2022_etusivu.png"  alt="kuva" ></a>
-            <a id="linkki" href="/sivut/projektit/mern2022.html">MERN kesäkurssi 2022</a>
+    <div class="projektit">
+        <div class="projekti-rivi">
+            <div class="projekti-kortti">
+                <a href="/sivut/projektit/mern2022.html"><img class="projekti-kortti-kuva"
+                        src="/kuvat/mern2022/mern2022_etusivu.png" alt="kuva"></a>
+                <div class="projekti-teksti">
+                    <a id="linkki" href="/sivut/projektit/mern2022.html">MERN kesäkurssi 2022</a>
+                    <p>Tein MERN-pinolla full-stack verkkosovelluksen.</p>
+                </div>
+            </div>
         </div>
-        <div class="projekti-kortti">
-            <a href="/sivut/projektit/frontpage.html"><img class="projekti-kortti-kuva" src="/kuvat/frontpage/frontpage_etusivu_1.png" alt="kuva" ></a>
-            <a id="linkki" href="/sivut/projektit/frontpage.html">Henkilökohtainen sivu</a>
+        <div class="projekti-rivi">
+            <div class="projekti-kortti">
+                <a href="/sivut/projektit/frontpage.html"><img class="projekti-kortti-kuva"
+                        src="/kuvat/frontpage/frontpage_etusivu_1.png" alt="kuva"></a>
+                <div class="projekti-teksti">
+                    <a id="linkki" href="/sivut/projektit/frontpage.html">Henkilökohtainen sivu</a>
+                    <p>MERN-pinolla tehty full-stack verkkosovellus, jossa testailen uusia asioita ja jota käytän selaimen aloitussivuna.</p>
+                </div>
+            </div>
         </div>
-        <div class="projekti-kortti">
-            <a href="/sivut/projektit/ohj2.html"><img class="projekti-kortti-kuva" src="/kuvat/ohj2/ohj2_etusivu_FULLSCREEN.png" alt="kuva"></a>
-            <a id="linkki" href="/sivut/projektit/ohj2.html">Ohjelmistotuotanto 2 -projekti</a>
+        <div class="projekti-rivi">
+            <div class="projekti-kortti">
+                <a href="/sivut/projektit/ohj2.html"><img class="projekti-kortti-kuva"
+                        src="/kuvat/ohj2/ohj2_etusivu_FULLSCREEN.png" alt="kuva"></a>
+                <div class="projekti-teksti">
+                    <a id="linkki" href="/sivut/projektit/ohj2.html">Matkakertomus verkkosovellus</a>
+                    <p>Ohjelmistotuotanto 2 -kurssilla, ryhmätyönä tehty full-stack verkkosovellus, jossa ihmiset voivat lukea muiden tarinoita, sekä postata omia tarinoita kirjautuneena.</p>
+                </div>
+            </div>
+        </div>
+        <div class="projekti-rivi">
+            <div class="projekti-kortti">
+                <a href="/sivut/projektit/henkilotietorekisteri.html"><img class="projekti-kortti-kuva"
+                        src="/kuvat/henkilotietorekisteri/ikkuna.png" alt="henkilorekisteri kuva"></a>
+                <div class="projekti-teksti">
+                    <a id="linkki" href="/sivut/projektit/henkilotietorekisteri.html">Henkilötietorekisteri</a>
+                    <p>Käyttöliittymä ohjelmointi -kurssin loppuprojektina tehty henkilötietorekisteri. Kirjoitettu C#:lla. Sisältää logituksen. </p>
+                </div>
+            </div>
+        </div>
+        <div class="projekti-rivi">
+            <div class="projekti-kortti">
+                <a href="/sivut/projektit/python-file-sorter.html"><img class="projekti-kortti-kuva"
+                        src="/kuvat/python-file-sorter/image.png" alt="python-file-sorter kuva"></a>
+                <div class="projekti-teksti">
+                    <a id="linkki" href="/sivut/projektit/python-file-sorter.html">Python-file-sorter</a>
+                    <p>Python sovellus, joka lajittelee tiedostoja niiden tyypin perusteella, luo niille kansiot ja siirtää ne niihin.</p>
+                </div>
+            </div>
         </div>
     </div>
+
 
     <footer>
         <p>© Iiro Välimaa&nbsp;-&nbsp;<span style="color: rgb(116, 116, 116);">Päivitetty 9.1.2023</span></p>
@@ -66,4 +119,5 @@
 
 
 </body>
+
 </html>
