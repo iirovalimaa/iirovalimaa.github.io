@@ -2,7 +2,7 @@
 body{
     background-color: #171714;
     /* background-color: #707070; */
-    color: white;
+    color: azure;
     height: fit-content;
     margin: 0px;
     text-align: center;
@@ -18,97 +18,84 @@ body > *{
 
 .title{
     margin-block: 5em;
+    width: 75%;
+    margin: auto;
+    margin-top: 100px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 
 .projektit{
     margin-top: 50px;
-}
-
-
-.projekti-rivi{
-    width: 75%;
     margin-inline: auto;
     display: grid;
-    grid-template-columns: 1fr;
     text-align: center;
-    gap: auto;
-    align-items: center;
-    border-style: none none solid none;
-    border-width: 1px;
-    border-color: #333333;
 }
-
 
 .projekti-kortti{
-    /* background-color: rgba(194, 194, 194, 0.509); */
-    color:azure;
-    margin: auto;
-    margin-top: 2em;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0px;
-}
-
-
-.projekti-kortti img {
-    margin: 1em;
-    width: 25rem;
+    aspect-ratio: 16 / 9;
+    width: 50%;
     height: auto;
-}
-
-.projekti-kortti img:hover {
-    background-color: #171714;
-}
-
-
-.projekti-kortti > * {
-    text-decoration: none;
-    color: white;
-    text-align: center;
-}
-
-.projekti-teksti{
-    margin: 1em;
-    text-align: left;
-}
-.projekti-teksti p{
-    color: rgb(209, 209, 209);
-}
-
-.projekti-teksti a:hover {
-    color: #e3874f;
-}
-
-/*
-    Hoveraamisessa jotain ongelmaa
-    Tekstit hieman ohi keskikohdasta
-*/
-#linkki {
-    text-decoration: none;
-    margin-top: 0%;
-    padding-top: 0%;
-    font-size: 1.3em;
-    border-color: #e3874f;
-    border-style: none none solid none;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    color: azure;
-}
-
-
-
-.teksti-tausta{
     margin-inline: auto;
-    width: 70%;
-    border-color: #e3874f;
-    border-style: solid none;
+    margin-bottom: 50px;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+.projekti-kortti img{
+    width: 100%;
+    transition: 1s ease;
 }
 
 
-.teksti-tausta p{
+
+.otsikko{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    opacity: 0 !important;
+    transform: translateY(-350px);
+}
+
+.projekti-kuvaus{
+    margin-inline:auto ;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: 0 !important;
+    transform: translateY(-350px);
+    width: 75%;
+}
+
+
+.projekti-kortti:hover img{
+    opacity: 0.5;
+    filter: blur(5px);
+    transition: 1s ease;
+    transform: scale(1.1);
+}
+
+
+
+/*  Syystä tai toisesta ilman '!important' tägiä  otiskko ja teksti jäävät välillä näkyviin */
+.projekti-kortti:hover .projekti-kuvaus{
+    opacity: 1 !important;
+}
+.projekti-kortti:hover .otsikko{
+    opacity: 1 !important;
+}
+
+/* Estää, ettei kursori muutu tekstin päällä toiseksi */
+.projekti-kortti:hover{
+    cursor: pointer;
+}
+
+
+
+.ala-viiva-dim{
+    border-style: none none solid;
+    border-width: 1px;
+    border-color: #333333;
+    padding-bottom: 15px;
 }
 
 
@@ -116,6 +103,9 @@ body > *{
 footer p{
     margin: 0px;
     padding: 0px;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:medium;
 }
 
 
