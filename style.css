@@ -30,7 +30,7 @@ body>* {
     display: flex;
     justify-content: center;
     padding-inline: 10px;
-    padding-block: 10px;
+    padding-block: 20px;
     height: auto;
 }
 
@@ -52,9 +52,9 @@ body>* {
 
 .right-side{
     padding-inline: 0px;
-    padding-block: 50px;
+    /* padding-block: 0px; */
     margin-inline: 20px;
-    margin-block: 0px;
+    margin-block: 35px;
     height: auto;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
