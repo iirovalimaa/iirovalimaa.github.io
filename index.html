@@ -1,75 +1,64 @@
 <!DOCTYPE html>
 <html lang="fi">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/tyylit/yleiset/navbar.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="/kuvat/favicon1.png" type="image/x-icon">
-    <title>Iiro Välimaa - ohjelmoija</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/tyylit/yleiset/navbar.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="/kuvat/favicon1.png" type="image/x-icon">
+  <title>Iiro Välimaa - koodari</title>
 </head>
+
 <body>
-    <div class="navbar">
-            <span>// </span>
-            <a href="/index.html">Etusivu</a>
-            <span>// </span>
-            <a href="/sivut/projektit/projektit.html">Projektit</a>
-            <span>// </span>
-            <a href="/sivut/links.html">Linkit</a>
-            <span>// </span>
-    </div>
-    <div class="title-container">
-        <div class="title">                
-            <img src="/kuvat/iiro.jpg" alt="profiilikuva" width="150rem" height="auto" style="border-radius: 50%;">
-            <h1 class="title-text">
-                <span>Hei,</span>
-                <span>Olen Iiro!</span>
-            </h1>
+  <div class="navbar">
+    <a href="/index.html" id="etusivulla">Etusivu</a>
+    <a href="/sivut/projektit/projektit.html">Projektit</a>
+  </div>
+  <main>
+    <div class="container">
+      <div class="left-side">
+        <div class="profile-picture-container">
+          <img src="./kuvat/iiro.jpg" class="profile-picture" />
         </div>
-    </div>
-    <main>
-        <div class="container">
-            <div class="kysymys-container">
-                <div class="kysymys-otsikko">
-                    <h2>Mikä mies?</h2>
-                </div>
-            </div>
-
-            <div class="vastaus-container">
-                <p class="vastaus">
-                    Olen Iiro Välimaa, 23-vuotias koodari, joka opiskelee kolmatta vuotta Savonialla tietotekniikan insinööriksi.
-                    <br>
-                    Olen kasvanut perheessä, jossa teknologia on ollut aina lähellä. Näin olen kasvanut osaavaksi teknologian taitajaksi.
-                    <br>
-                    Tämän lisäksi olen saanut vaikutteita isältäni, joka on toiminut alalla yli 25 vuotta.
-                </p>
-            </div>
-            
-            <div class="kysymys-container">
-                <div class="kysymys-otsikko">
-                    <h2 class="">Osaaminen?</h2>
-                </div>
-            </div>
-
-            <div class="vastaus-container">
-                <p class="vastaus">
-                    Olen aloittanut ohjelmoinnin verkkosivujen luomisella. Tein aluksi vain staattisia <span class="p-lang">HTML</span> + <span class="p-lang">CSS</span> sivuja, mutta siirryin nopeasti <span class="p-lang">JavaScriptin</span> pariin.
-                    <br>
-                    Savonialla opetettiin ensimmäisenä <span class="p-lang">C#</span> ja sillä käyttöliittymän ohjelmointia.
-                    <br>
-                    Olio-ohjelmointia opetettiin <span class="p-lang">Javalla</span>, jota käytettiin myöhemmin myös Tietorakenteiden ja algoritmien kursilla.
-                    <br>
-                    Koulun edetessä olen käynyt valinnaisena Python-ohjelmoinnin kurssin ja käyttänyt sitä IoT-ohjelmoinnin kurssilla, sekä  omiin projekteihin, kuten python-file-sorteriin.
-                    <br>
-                    Tietokantoina olen käyttänyt MongoDB tai SQL-pohjaisia tietokantoja.
-                </p>
-            </div>
-        
+      </div>
+      <div class="right-side">
+        <div class="title">
+          <h1 class="title-text">
+            <span>Hei,</span>
+            <span>olen iiro!</span>
+          </h1>
         </div>
-    </main>
-    <footer>
-        <p>© Iiro Välimaa&nbsp;-&nbsp;<span style="color: rgb(116, 116, 116);">Päivitetty 12.3.2023</span></p>
-    </footer>
+        <div class="text-container">
+          <p>Olen Iiro Välimaa, 23-vuotias mies, joka rakastaa kahvia ja koodaamista. Opiskelen parhaillaan kolmatta
+            vuotta Savonialla tietotekniikan insinööriksi. Erikoistun ohjelmistotekniikkaan.</p>
+          <p>Olen kasvanut perheessä, jossa teknologia on ollut aina lähellä. Näin olen kasvanut osaavaksi teknologian
+            taitajaksi. Tämän lisäksi olen saanut vaikutteita isältäni, joka on toiminut alalla yli 25 vuotta.</p>
+          <p>Tykkään pääasiassa tehdä nettisivuja ja kokemusta löytyy paljolti full stack -ohjelmoinnista. Olen myös etevä Javan, C# ja Pythonin kanssa. Viime aikoina olenkin viettänyt näiden parissa enemmän aikaa ja luonut niillä omaa elämää helpottavia sovelluksia.</p>
+        </div>
+        <div class="link-row">
+          <a class="to-projects" href="./sivut/projektit/projektit.html">TUTUSTU PROJEKTEIHINI</a>
+          <div class="social">
+            <a href="https://www.github.com/theCoffeehound/" class="icon-links"><img src="./kuvat/kisu.png" width="auto"
+                height="40rem" alt="github-1" class="icons"></a>
+            <a href="https://www.github.com/iirovalimaa/" class="icon-links" title="Github"><img src="./kuvat/kisu.png"
+                width="auto" height="40rem" alt="github-1" class="icons"></a>
+            <a href="https://www.linkedin.com/in/iiro-v%C3%A4limaa-18aa01206/" class="icon-links"><img
+                src="./kuvat/in.png" width="auto" height="40rem" alt="github-1" class="icons"></a>
+            <a href="https://www.github.com/theCoffeehound/" class="icon-links">Oma Github</a>
+            <a href="https://www.github.com/iirovalimaa/" class="icon-links">Koulun kithub</a>
+            <a href="https://www.linkedin.com/in/iiro-v%C3%A4limaa-18aa01206/" class="icon-links">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>© Iiro Välimaa&nbsp;-&nbsp;<span style="color: rgb(116, 116, 116);">Päivitetty 16.3.2023</span></p>
+  </footer>
+
 </body>
+
 </html>
