@@ -32,6 +32,11 @@ body{
     border-color: #e3874f;
 }
 
+.text-container p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+
 .photo-container{
     width: 75%;
     margin-inline: auto;
