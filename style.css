@@ -145,7 +145,10 @@ footer {
     background-color: #080807;
 }
 
-footer p {
+footer p{
     margin: 0px;
     padding: 0px;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:medium;
 }
