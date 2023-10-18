@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projekti - "Kesäkurssi"</title>
 </head>
+
 <body>
     <!--    NAVBAR STARTS   -->
 
@@ -23,20 +25,28 @@
         <h1>Kesäkurssi MERN-2022</h1>
     </div>
     <div class="container">
-        <h2>Yleistä</h2>
-        <div class="text-container">
-            <p>Suoritin kesällä 2022 5op suuruisen kurssin, jossa toetutettiin full-stack verkkosivu MERN-stackillä.</p>
-            <p>Verkkosivun ulkoasuun käytettiin Bootstrap CSS-frameworkkia.</p>
-        </div>
+        <div class="left-side">
+            <div class="photo-container">
 
-        <div class="photo-container">
-            
-            <h2>Etusivu</h2>
-            <p></p>
-            <img src="/kuvat/mern2022/mern2022_etusivu.png" alt="etusivu">
-        
+                <div class="mySlides" style="display: block;">
+                    <img src="/kuvat/mern2022/mern2022_etusivu.png" alt="etusivu">
+                    <h2>Etusivu</h2>
+                </div>
+
+                <!-- Next and previous buttons
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
+            </div>
         </div>
-    
+        <div class="right-side">
+            <div class="text-container">
+                <p>Suoritin kesällä 2022 5op suuruisen kurssin, jossa toetutettiin full-stack verkkosivu MERN-stackillä.
+                </p>
+                <p>Verkkosivun ulkoasuun käytettiin Bootstrap CSS-frameworkkia.</p>
+            </div>
+        </div>
     </div>
 </body>
+<script src="/skriptit/carousel.js"></script>
+
 </html>

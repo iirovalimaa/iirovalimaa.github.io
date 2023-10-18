@@ -23,26 +23,35 @@
         <h1>react-project-manager</h1>
     </div>
     <div class="container">
-        <h2>Yleistä</h2>
-        <div class="text-container">
-            <p>"react-project-manager" on MERN-pinolla luotu työkalu, jolla voidaan seurata missä vaiheessa omat projektit ovat.</p>
-            <p>Sovellus on vielä kehitys vaiheessa ja siitä puuttuu vielä uuden projektin lisääminen.</p>
+
+        <div class="left-side">
+            <div class="photo-container">
+            
+                <div class="mySlides" style="display: block;">
+                    <img src="/kuvat/react-project-manager/project-manager.png" alt="etusivu">
+                    <h2>Etusivu</h2>
+                </div>
+                <div class="mySlides" style="display: none;">
+                    <img src="/kuvat/react-project-manager/pm_concept.png" alt="concept">    
+                    <h2>Concept</h2>
+                </div>
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                
+            </div>
         </div>
 
-        <div class="photo-container">
-            
-            <h2>Etusivu</h2>
-            <p></p>
-            <img src="/kuvat/react-project-manager/project-manager.png" alt="etusivu">
-        
+        <div class="right-side">
+            <div class="text-container">
+                <p>"react-project-manager" on MERN-pinolla luotu työkalu, jolla voidaan seurata missä vaiheessa omat projektit ovat.</p>
+                <p>Sovellus on vielä kehitys vaiheessa ja siitä puuttuu vielä uuden projektin lisääminen.</p>
+            </div>
         </div>
-        <div class="photo-container">
-            
-            <h2>Concept</h2>
-            <p></p>
-            <img src="/kuvat/react-project-manager/pm_concept.png" alt="concept">
         
-        </div>
+
+
     </div>
 </body>
+<script src="/skriptit/carousel.js"></script>
 </html>

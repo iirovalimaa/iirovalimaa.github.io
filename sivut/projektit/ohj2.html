@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fi">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projekti - "Ohj2"</title>
 </head>
+
 <body>
     <!--    NAVBAR STARTS   -->
 
@@ -23,28 +25,39 @@
         <h1>Ohjelmistotuotanto 2</h1>
     </div>
     <div class="container">
-        <h2>Yleistä</h2>
-        <div class="text-container">
-            <p>Ohjelmistotuotannon kurssit ovat nimensä mukaisesti ohjelmistotuotannon harjoittelua.</p>
-            <p>Kurssilla käydään aluksi läpi ohjelmistotuotannon eri vaiheita ja metodeja.</p>
-            <p>Lopuksi tuotamme noin 5 ihmisen ryhmissä projektin aikaisemmin opituilla metodeilla.</p>
-            <p>Projektissa opettaja esittää yritystä ja tilaa ryhmältä haluamansa sovelluksen.</p>
-        </div>
+        <div class="left-side">
+            <div class="photo-container">
 
-        <div class="photo-container">
-            
-            <h2>Etusivu</h2>
-            <p></p>
-            <img src="/kuvat/ohj2/ohj2_etusivu_FULLSCREEN.png" alt="etusivu">
-            
-            <h2>Jäsenet</h2>
-            <img src="/kuvat/ohj2/ohj2_jäsenet_FULLSCREEN.png" alt="jäsenet">
-    
-            <h2>Uusi kertomus</h2>
-            <img src="/kuvat/ohj2/ohj2_uusi_kertomus_FULLSCREEN.png" alt="uusi kertomus">
-            
+                <div class="mySlides" style="display: block;">
+                    <img src="/kuvat/ohj2/ohj2_etusivu_FULLSCREEN.png" alt="etusivu">
+                    <h2>Etusivu</h2>
+                </div>
+                <div class="mySlides" style="display: none;">
+                    <img src="/kuvat/ohj2/ohj2_jäsenet_FULLSCREEN.png" alt="jäsenet">
+                    <h2>Jäsenet</h2>
+                </div>
+                <div class="mySlides" style="display: none;">
+                    <img src="/kuvat/ohj2/ohj2_uusi_kertomus_FULLSCREEN.png" alt="uusi kertomus">
+                    <h2>Uusi kertomus</h2>
+                </div>
+
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                
+            </div>
         </div>
-    
+        <div class="right-side">
+            <div class="text-container">
+                <p>Ohjelmistotuotannon kurssit ovat nimensä mukaisesti ohjelmistotuotannon harjoittelua.</p>
+                <p>Kurssilla käydään aluksi läpi ohjelmistotuotannon eri vaiheita ja metodeja.</p>
+                <p>Lopuksi tuotamme noin 5 ihmisen ryhmissä projektin aikaisemmin opituilla metodeilla.</p>
+                <p>Projektissa opettaja esittää yritystä ja tilaa ryhmältä haluamansa sovelluksen.</p>
+            </div>
+        </div>
+    </div>
+
     </div>
 </body>
+<script src="/skriptit/carousel.js"></script>
 </html>
