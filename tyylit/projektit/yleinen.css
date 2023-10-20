@@ -40,10 +40,15 @@ body {
     border-color: #e3874f;
 }
 
-.text-container p {
+.text-container p, li {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: large;
     text-align: left;
+}
+
+#note{
+    font-style: italic;
+    color: rgba(240, 248, 255, 0.356);
 }
 
 .photo-container {
@@ -70,24 +75,24 @@ body {
     position: absolute;
     top: 45%;
     width: 1rem;
-    height: 1rem;
+    height: auto;
     margin-top: -22px;
     padding: 16px;
     color: white;
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
-    border-radius: 50%;
     user-select: none;
     z-index: 1000000;    
-    border-style: solid;
-
+    text-align: center;
 }
 .next {
     right: -15px;
+    border-radius: 0 15% 15% 0;
 }
 
 .prev {
     left: -15px;
+    border-radius: 15% 0 0 15%;
 }
 
